@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="133.0" prefWidth="380.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cupcarbon.NewUserWindowController">
+   <center>
+      <Pane prefHeight="149.0" prefWidth="389.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="38.0" layoutY="30.0" prefHeight="33.0" prefWidth="96.0" text="Usesr's name:" />
+            <Button fx:id="buttonDone" layoutX="133.0" layoutY="76.0" mnemonicParsing="false" onAction="#save" prefHeight="31.0" prefWidth="78.0" text="Done" />
+            <TextField fx:id="txtUserName" layoutX="133.0" layoutY="31.0" prefHeight="31.0" prefWidth="208.0" />
+         </children>
+      </Pane>
+   </center>
+</BorderPane>
